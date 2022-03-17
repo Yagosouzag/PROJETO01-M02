@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #030303;
+}
+
+header {
+    background-image: url('../img/Ben\ 10\ Ultimae\ Alien1-711964g.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: #030303;
+    background-position-y: -6rem; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+header h1{
+    padding: 6rem;
+    color: #3bce1e;
+    font-size: 3rem;
+}
+
+section#informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+section#informacoes div#textos{
+    padding: 1rem;
+    color: #17cf3f;
+    text-align: center;
+}
+
+section#informacoes div#textos h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section#informacoes div#textos h2 text{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section#informacoes div#textos h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2rem 0 2rem 0 ;
+}
+
+section#informacoes div#textos h3 text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2rem 0 2rem 0 ;
+}
+
+section#informacoes div#textos button{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #17cf3f;
+    border: 2px solid #17cf3f;
+    border-radius: 2rem;
+    transition: all 1s ease-out;
+    cursor: pointer;
+}
+
+section#informacoes div#textos button:hover{
+    transform: scale(1.1);
+}
+
+section#informacoes div#imagens{
+    display: flex;
+    justify-content: center;
+}
+
+section#informacoes div#imagens img{
+    width: 60%;
+    border-radius: 3rem;
+}
